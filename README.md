@@ -26,14 +26,16 @@ This page displays a list of products fetched from an external API using Next.js
 ## Usage
 
 1. Install dependencies:
-   ...bash
+
+```bash
    npm install
-   ...
+```
 
 2. Start the development server:
-   ...bash
+
+   ```bash
    npm run dev
-   ...
+   ```
 
 3. Open the app in your browser:
    ```
