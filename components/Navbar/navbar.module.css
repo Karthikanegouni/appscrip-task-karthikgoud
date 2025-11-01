@@ -1,0 +1,29 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  color: #bfc8cd;
+  padding: 2em;
+  font-weight: 400;
+}
+
+.active {
+  color: black;
+}
+.navbarlg {
+  display: none;
+}
+
+@media (min-width: 576px) {
+  .navbar {
+    display: none;
+  }
+  .navbarlg {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    font-weight: 700;
+    padding: 2em;
+    margin: auto;
+  }
+}

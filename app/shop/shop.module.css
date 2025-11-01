@@ -1,0 +1,15 @@
+.descriptionContainer {
+  text-align: center;
+  padding: 1em;
+  color: #252020;
+  line-height: 1.5;
+}
+
+.title {
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 1em;
+}
+.description {
+  font-weight: 400;
+}

@@ -1,0 +1,51 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em;
+  border: 2px solid #f1f1f1;
+  font-size: 1em;
+  position: relative;
+}
+
+.flexContainer {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.userLogo {
+  display: none;
+}
+.hamburger {
+  display: block;
+}
+
+.AppTitle {
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.selectLanguage {
+  display: none;
+}
+
+@media (min-width: 576px) {
+  .selectLanguage {
+    display: block;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-weight: bold;
+  }
+  .userLogo {
+    display: block;
+  }
+  .hamburger {
+    display: none;
+  }
+}

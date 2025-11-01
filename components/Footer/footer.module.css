@@ -1,0 +1,18 @@
+.footer {
+  display: flex;
+  background-color: black;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 5em;
+  margin-top: 5em;
+  gap: 2em;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 1em;
+}
